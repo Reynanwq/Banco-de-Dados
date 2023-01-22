@@ -1,0 +1,9 @@
+2FN - Segunda Forma Normal
+
+Uma entidade está na 2FN se já estiver na 1FN (processo sequencial).
+Todos os campos não chave devem ser totalmente dependente das chaves.
+
+3FN - Terceira Forma Normal
+
+precisa está na segunda forma normal.
+Remover campos desnecessários, ou seja, campos que são resultados de uma equação matématica envolvendo  outros campos.
