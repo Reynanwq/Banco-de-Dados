@@ -1,0 +1,10 @@
+Relacionaias = SQL
+Não Relacionaias = NOSQL
+
+SQL - linguagem especifica para tranalhar com banco de dados
+
+NOSQL = Não somente sql
+
+Criado por Edgar Frank Codd  
+
+relacionamento entre tabelas

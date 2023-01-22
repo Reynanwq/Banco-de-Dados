@@ -1,0 +1,11 @@
+Introdução banco de dados:
+Modelagem de dados:
+Linguagem SQL:
+MySQL:
+MySQL:
+PostgreSQL:
+SQLite: muito usado em aplicações mobile
+MongoDB: Nosql - Não relacional
+Redis:
+CouchDB: 
+Firebase: muito usado em aplicações mobile

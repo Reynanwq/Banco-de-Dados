@@ -1,0 +1,9 @@
+Passo a Passo para a criação de um banco de dados.
+
+Primeira forma Normal: nenhum campo pode ser multivalorado.
+Não aceitamos campos vázios em uma tabela.
+
+O objetivo da 1FN é resolver o problema relacionado a desorganização de um dado.
+
+codigos simples ou atomicos: segue um padrão de valor para cada atributo
+multivalorado: com multiplos valores - problemático.

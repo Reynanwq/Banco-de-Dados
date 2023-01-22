@@ -1,0 +1,3 @@
+Dado é um eleento que surge a partir da entrada de um usuário. É a unidadde elementar.
+
+Informação é um elemento processado a partir de um conjunto de dados

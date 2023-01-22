@@ -1,0 +1,13 @@
+Descrever com mais detalhes a nossa estrutura do banco de dados. Trata da estrutura do banco em sí.
+
+Conceitual: alto nível. Mais fácil o entendimento. Colocamos nele aquilo que é mais importante.
+
+1) Cliente: cadastrar dados do cliente
+2)Pedido: Código, quantidade 
+
+Lógica: Descreve como o dados será armazenado.
+
+Física: Descrever por meio de uma linguagem SQL
+
+
+Conceitual -> Lógico -> Físico
