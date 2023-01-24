@@ -1,0 +1,7 @@
+Linux
+
+- sudo apt-get update
+- lsb_release -rs
+- wget (instalar de acordo com a versão)
+- sudo dpkg -i mysql-workbench-community.deb
+- sudo apt-get -f install
