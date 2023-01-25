@@ -1,0 +1,11 @@
+Model -> add Diagram
+
+add Diagram -> Place a new table -> after touch, just click in the principal scream
+
+click in the method -> Table -> name -> (choice the name)
+
+click in the method -> Columns -> click -> Collumn name -> seletc the name of the column
+
+- PK 
+- NN
+- AI
