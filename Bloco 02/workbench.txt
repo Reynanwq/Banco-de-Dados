@@ -6,6 +6,19 @@ click in the method -> Table -> name -> (choice the name)
 
 click in the method -> Columns -> click -> Collumn name -> seletc the name of the column
 
-- PK 
-- NN
+database: o tipo do dado
+
+- PK (chave primária, só 1 pode ser ele)
+- NN (todo campo deve ser "not null")
 - AI
+
+Foreign Keys: chave estrangeira, não pode ter repetição do nome no banco de dados.
+
+Tem um padrão de nome fk_funcionários_1
+
+fk_"nome"_N°
+
+referenced table: selecionar a tabela ao qual estou fazendo referencia -> selecionar o campo da tabela ao qual estou fazendo referencia.
+
+
+------------ CRIAR DOCUMENTAÇÃO PARA EXPORTAR MEU BANCO DE DADOS -------------
