@@ -1,0 +1,74 @@
+Lingaugem de definição de dados.
+Definição e criação do sistema de banco de dados.
+
+Create Database:
+- sintaxe: 
+       Create Database <Nome>
+       
+ - Exemplo:
+      Create Database <escola>
+      
+  
+USE:
+- sintaxe:
+use <nome>
+       
+ - Exemplo:
+use <escola>
+
+significa que os proximos comando escolhidos serão referencia para o banco de dados citado.
+
+
+Create Table:
+
+- sintaxe:
+        
+ - Exemplo:
+ 
+ Not null: ao ser aplicado em uma produto, significa que determinado valor deve ser obrigatoriamente preenchido.
+ Default: qual valor deve ser aplicado ao atributo, caso o usuário não atribua algum valor.
+ Unique:Nenhum valor repitido deverá ser inserido no campo.
+ Check: Cria uma regra para verificcar se o valor inserido no produto é permitido.
+ Primary Key: Definir uma chave primária.
+ Foreign Key: Definir uma chave estrangeira.
+ 
+ Primary Key:
+  Constraint <Nome> Primary Key <atributo> 
+  
+ Foreign Key:
+   Constraint <Nome> Foreign Key <atributo>
+   References <Nome da tabela referenciada> <Nome>
+   
+   
+ Create Table Aluno(
+   Matrilcula int, 
+   Nome varchar(50) Not Null,
+   Email varchar(50)
+   constrait pk_Aluno Primary Key (Matricula)
+ );
+ 
+ Alter: permite alterar a estrutura de uma tabela, seja adicionando atributoss, excluindo, alterar o tipo ou tamanho do atributo, adicionando e excluindo constraints.
+ 
+ Adicionar um novo atributo
+ Alter Table Aluno Add Telefone varchar(14);
+ 
+ Excluir um atributo da Tabela.
+ Alter Table Aluno Drop Telefone;
+ 
+ Alterar o tipo de dado ou tamanho de um atributo
+ Alter Table Aluno Modify Telefone char(25);
+ 
+Drop: usado para excluir uma tabela
+
+- Sintaxe:
+    Drop Table <Nome da Tabela>;
+    
+ - Exemplo: 
+     Drop Table Aluno;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
