@@ -1,0 +1,14 @@
+Linguagem voltada para os banco de dados relacionais.
+A linguagem SQL foi inspirada na algebra ralacional.
+Grande parte dos banco de dados já trazem a sigla "SQL" no nome do banco.
+
+SQL: DQL + DML +  DDL + DCL + DTL -> divida entre esse 5 grupos
+
+DQL: Data query language (linguagem de consulta de dados)
+DML: Data manipulation language (linguagem de manipulação de dados)
+DDL: Data definition language (Linguagem de definição de dados)
+DCL: Data control language (linguagem de controle de dados)
+DTL: Data Transation language (linguagem de transação de dados)
+
+Mensagens passadas sempre em inglês.
+
