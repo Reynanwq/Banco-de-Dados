@@ -1,0 +1,5 @@
+File -> New model -> add diagram
+
+T1 -> Players
+
+DK -> Players
