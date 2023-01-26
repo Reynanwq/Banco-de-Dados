@@ -1,0 +1,19 @@
+realizar consultas no banco de dados
+
+Só tem um comando, que é o "select"
+
+é a mais utilizada.
+
+O comando SELE T permite ao usuario especificar uma consulta (query).
+
+
+FUNCIONAMENTO DO SELECT
+
+SELECT * FROM (selecione tudo de...)
+
+Podemos colocar alias (apelidos) em nome de tabelas ou campos
+
+SELECT p.codigo AS cod;
+
+
+
