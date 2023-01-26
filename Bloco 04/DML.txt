@@ -1,1 +1,30 @@
+Manipulação de dados
 
+Atualizar, apagar e inserir informações no banco de dados
+
+update, delete e insert
+
+
+
+Insert
+usado quando queremos inserir dados em um banco de dados
+sintaxe: insert int <nome da tabela> (atributo 1, atributo 2) Value (valor 1, valor 2);
+exemplo:
+insert into Aluno (nome, CPF) Value (222.222.222, 'Pedro Alberto');
+
+Delete
+
+sintaxe: Delete From <nome da tabela>
+exemplo: 
+Delete From <aluno>
+Where CPF = 222.222.222;
+
+se não informar o "where", o delete irá excluir todos os digitos da tabela.
+
+
+UPDATE
+
+Update <nome da tabela>
+Set <nome do atributo 1> = novo valor
+,[ <nome do atributo 2> = novo valor]
+where condição
