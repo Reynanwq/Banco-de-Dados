@@ -1,0 +1,6 @@
+LInguagem de transação de dados.
+
+COMMIT: salva o trabalho feito.
+SAVEPOINT: identifica um ponto que que depois possa utilizar o ROLLBACK.
+ROLLBACK: restaura o banco de dados para qualquer etapa, seja o original ou o último commit feito.
+
