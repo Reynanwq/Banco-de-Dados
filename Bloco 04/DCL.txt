@@ -1,0 +1,6 @@
+Controle de dados
+
+GRANT: atribui privilegios de acesso aos usuarios 
+
+
+REVOKE: remove ou nega privilegios de acesso ao usuario (tais privilegios que foram dados com o GRANT).
