@@ -1,0 +1,39 @@
+utilizado quando uma aplicação necessita de informações resumidas. 
+Uma função de agregação processa um conjunto de valores contidos em uma única coluna de umma tabela e retorna apenas 1 resultado.
+O parametro é sempre a coluna cujo os valores se desejam processar.
+
+--------------- MAX ----------------
+
+MAX: analisa um conjunto de valores e retorna o maior entre eles. 
+SELECT MAX(preco_venda) FROM produtos (funcao max retorna o maior valor de uma venda de produtos) 
+
+HAVING -> mesma funcionalidae do WHERE 
+
+HAVING é mais utilizado quando estamos trabalhando com um cinjunto de funções.
+
+SELECT id_categoria, MAX(preco_venda) FROM produtos GRUPO BY id_categoria
+HAVING MAX(preco_venda) > 3;
+
+
+
+-------------- MIN ---------------
+
+MIN: retorna o menor valor
+
+-------------- SUM ---------------
+
+retorna a soma de todos os valores
+
+-------------- AVG ---------------
+
+retorna a média aritmética
+
+-------------- ROUND ---------------
+
+retorna o valor especificando a quantidade de casas decimais
+
+-------------- COUNT ---------------
+
+retorna a quantidade de linhas selecionadas.
+
+
