@@ -1,0 +1,11 @@
+Seção 5 do curso da Geek University
+
+DQL para fazer consultas com o SELECT
+
+
+WHERE: utilizado no comando update e delete
+
+SELECT * FROM tipos_produtos WHERE codigo = 1
+(selecionando todos os dados do tipo produto na tabela em que seu código seja igual aou valor 1)
+
+Deixa as consultas muito mais poderosas.
