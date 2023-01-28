@@ -1,0 +1,25 @@
+CURDATE() 
+
+SELECT CURDATE AS 'Data Atual';
+
+CURTIME(): retorna a hora atual no formato hora-minuto-segundo
+
+CURRENT_TIME(): faz o mesmo da função anterior.
+
+DATA_ADD(CURDATE(), INTERVAL 3 DAY) AS 'Data de Vencimento';
+(aqui nós estamos adicionando 3 dias na data atual)
+
+DATE_SUB(): reduzo a quantidade de dias.
+
+DATEDIFF(): consigo calcular e definir os dias de atraso.
+
+DATA_FORMAT(): pega a data e exibe no formato especificado.
+
+SELECT DATE_FORMAT(CURDATE(), '%d%m%y') AS 'Data Formatada';
+(neste exemplo, estou retornando a data atual no formato dd-mm-yyyy)
+
+DAYNAME: retorna o dia da semana para a data
+SELECT DAYNAME(CURDATE()) AS 'Dias da Semana';
+
+
+(TEM VÁRIAS OUTRAS FUNÇÕES QUE EU OPTEI POR NÃO EXIBIR AQUI)
