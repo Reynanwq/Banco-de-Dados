@@ -1,0 +1,8 @@
+SELECT * FROM profissoes
+SELECT * FROM clientes
+
+SELECT c.id, c.nome, c.data_nascimento, c.telefone, c.cargo;
+FROM clientes AS c, profissoes AS p
+WHERE c.id_profissao = p.id;
+
+cada consulta tem somente 1 cargo
