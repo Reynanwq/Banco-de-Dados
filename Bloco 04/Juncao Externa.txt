@@ -1,0 +1,37 @@
+OUTER JOIN 
+
+LEFT OUTER JOIN, RIGHT OUTER JOIN and FULL OUTER JOIN 
+
+LEFT: o resultado dessa consulta sempre contém o registro da tabela esquerda. 
+
+SELECT * FROM clientes
+LEFT OUTER JOIN profissoes 
+ON clientes.id_profissao = profissoes.id
+
+aqui clientes representtam a tabela esquerda e profissoes representam a tabela direita.
+
+
+
+RIGHT: consulta inversa ao LEFT. Retorna todos os registros da tabela á direita (ou seja, a segunda tabela mensionada na consulta). Neste caso, o valor NULL é retornado quando não há correspondencia.
+
+SELECT * FROM clientes
+RIGHT OUTER JOIN profissoes
+ON clientes.id_profisssao = profissoes.id
+
+
+FULL: traz todos os registros de ambas as tabelas. Caso não tenha, preenche o valor com NULL.
+
+SELECT * FROM clientes
+FULLL OUTER JOIN profissoes
+ON clientes.id_profissoes = profissoes.id;
+
+
+pode ser subistituida com o uso do UNION
+
+SELECT * FROM clientes
+RIGHT OUTER JOIN profissoes
+ON clientes.id_profisssao = profissoes.id
+UNION
+SELECT * FROM clientes
+RIGHT OUTER JOIN profissoes
+ON clientes.id_profisssao = profissoes.id
