@@ -1,0 +1,19 @@
+Durante o desenvolvimento de aplicações, as vezes é necessário agrupar e ordenar os resultados para uma melhor apresentação.
+
+Comando DML (para inserção de dados no bando de dados)
+
+GROUP BY (agrupar por...)
+
+Como que eu quero que a minha tabela seja representada.
+
+
+ORDER BY
+
+Utilizada para agrupar por ordenação
+Organiza os dados em ordem númerica e alfabética
+
+ASC = ascendente -> do menor para o maior
+DESC = descendente -> do maior para o menor
+
+por padrão, a ordenação e ascendente.
+Podemos realizar a ordenação por qualquer campo.
