@@ -1,0 +1,7 @@
+SELECT C.id, c.nome, c.telefone, c.cargo
+FROM clientes AS c INNER JOIN profissoes AS p
+ON c.id_profissao = p.id
+
+Gera o mesmo resultado da junção por produto cartesiano.
+
+ON funciona semelhante ao WHERE, ON é usado com o INNER JOIN
