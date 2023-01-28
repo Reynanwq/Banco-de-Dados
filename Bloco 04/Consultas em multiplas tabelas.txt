@@ -1,0 +1,5 @@
+As tabelas se relacionam entre elas.
+
+Consulta que traga dados de tabelas que estão separadas. Mas só podemos fazer isso se existir um relacionamento entre as tabelas.
+
+precisamos do uso do WHERE para reazlizar um filtro, dá para resovler com pura logica de programaç
