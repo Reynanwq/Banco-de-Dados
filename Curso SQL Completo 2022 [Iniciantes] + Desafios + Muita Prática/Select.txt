@@ -1,0 +1,15 @@
+Utilizado para realizar uma busca em cima de dados.
+
+A ideia básica é selecionar uma coluna ou mais de uma tabela
+
+SELECT coluna1, coluna2 FROM tabela
+
+ou
+
+SELECT * FROM tabela
+
+o comando SQL deve está sempre em maiusculo, por convênção.
+
+EXERCICIO: pegar o nome e sobrenome de todos os lcientes cadastrados no sistema.
+
+SELECT firstName, lastName FROM tabela;
