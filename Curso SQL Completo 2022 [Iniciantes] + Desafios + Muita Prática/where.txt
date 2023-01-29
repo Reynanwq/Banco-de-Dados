@@ -1,0 +1,31 @@
+SELECT coluna1, coluna2 FROM tabela 
+WHERE condicao;
+
+EXERCICIO 1: retornar todas as pessoas que tenham "Miller" como sobrenome.
+
+SEELECT * FROM tabela
+WHERE lastName = 'Milerr'
+
+
+EXERCICIO 2: retornar todas as pessoas que tenham "Miller" como sobrenome e "Anna" como primeiro nome.
+
+SEELECT * FROM tabela
+WHERE lastName = 'Milerr' and firstName = 'Anna';
+
+EXERCICIO 3: retornar tinta de cor azul ou preta
+
+SELECT * FROM products
+WHERE color = 'blue' or color = 'black'
+
+EXERCICIO 4: pegar todas as peças que pesam mais do que 500kg e menos do que 700kg
+
+SELECT name FROM products
+WHERE weight >= 500 and weight <= 700
+
+
+EXERCICIO 5: Pegar todos os empregados que são solteiros e assalariados.
+
+SELECT name FROM HumanResources.Employee
+WHERE MaritalStatus = 'Maried' AND SalariedFlag = 1 (true) 
+
+
