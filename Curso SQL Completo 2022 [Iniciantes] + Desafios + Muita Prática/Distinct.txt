@@ -1,0 +1,11 @@
+usado quando queremos omitir os dados duplicados de uma tabela. Retornar apenas os dadis únicos.
+
+SELECT DISTINCT coluna1, coluna2 FROM tabela
+
+EXERCICIO: REMOVER OS NOMES DUPLICADOS.
+
+SELECT DISTINCT firstName FROM tabela;
+
+EXERCICIO 2: DESCOBRIR QUANTOS SOBRENOMES TEMOS NA NOSSA TABELA ?
+
+SELECT DISTINCT lastName FROM tabela
