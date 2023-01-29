@@ -1,0 +1,12 @@
+------------ Como está o mercado de banco de dados para iniciantes ? ------------
+
+- Buscar vagas no linkedin: Foco no SQL e no MongoDB
+
+
+- Perguntas comum em uma entrevista:
+
+- O que são bases de dados de sistemas e basese de dados de usuários ?
+
+- Qual a função da base de dados de sistemas chamada model ?
+
+- Qual é a porta padrão do SQL Server ? Resposta: 1433 (fazer a alteração o mais ŕapido possível)
