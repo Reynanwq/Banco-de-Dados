@@ -8,9 +8,23 @@ Table name (nome da minha tabela)
 
 varchar: armazena qualquer tipo de texto.
 
+------------ TABELA USUARIO -------------
+
 id: é o código do usuario, basicamente, é o que irá diferencia-lo de outro usuário
 
 Collumn name -> id -> datatype: INT -> Primary key (PK) and Not Null (NN)
 name -> datatype: varchar(65) -> NN
 email -> datatype: varchar(75) -> NN
 password -> datatype: varchar(90) -> NN
+
+------------ TABELA PROMOÃO -------------
+
+LONG TEXT: Armazena mais do que 90 caracteres
+TINYINT: mesmo que um valor booleano, só que recebe 0 (false) ou 1 (true)
+
+collumn name -> id -> datatype: int -> NN
+collumn name -> nome -> datatype: varchar(65) -> NN
+collumn name -> descrição -> datatype: LONG TEXT -> NN
+collumn name -> foto -> datatype: varchar(90) -> NN
+collumn name -> link -> datatype: varchar(90) -> NN
+collumn name -> ativa -> datatipe: TINYINT -> NN
