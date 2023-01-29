@@ -1,0 +1,16 @@
+file -> new model -> add Diagram -> entra no arquivo ERR Diagram
+
+save model as current file (para salvar o meu modelo)
+
+Place a new table (recurso para criar uma nova tabela)
+
+Table name (nome da minha tabela)
+
+varchar: armazena qualquer tipo de texto.
+
+id: é o código do usuario, basicamente, é o que irá diferencia-lo de outro usuário
+
+Collumn name -> id -> datatype: INT -> Primary key (PK) and Not Null (NN)
+name -> datatype: varchar(65) -> NN
+email -> datatype: varchar(75) -> NN
+password -> datatype: varchar(90) -> NN
