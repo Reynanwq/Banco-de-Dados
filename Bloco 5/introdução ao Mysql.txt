@@ -1,0 +1,7 @@
+SGBDR - SISTEMA GERENCIADOR DE BANCO DE DADOS RELACIONAL
+
+Composição: 
+
+TABELAS: objetos onde nós organizamos os nossos dados
+CAMPOS: colunas - atributos
+REGISTROS: linhas - tuplas
