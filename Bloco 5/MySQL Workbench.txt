@@ -1,0 +1,13 @@
+MYSQL CONNECTIONS: lá tem os clientes de acesso ao mysql  
+hostname: é o ip do servidor
+port: 3306 (porta padrão de conexão)
+
+schema name: é o nome do meu banco de dados
+
+toda tabela deve ter o identificador (ID), sendo  esta a primary key.
+
+todos os campos da tabela devem ser NN - NOT NULL
+
+alfanúmerico = VARCHAR(50)
+
+o ID sempre deve ser int
