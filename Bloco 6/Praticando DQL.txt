@@ -1,0 +1,15 @@
+  para criar um banco dea dados
+  nome do banco de dados que eu desejo criar = secao 04
+  
+  - CREATE DATABASE secao04;
+  
+  - USE secao04;
+  
+  AUTO_INCREMENT o pŕoprio código irá se incarregar de inserir o valor 
+  
+ ------------------ ALIAS --------------- 
+ CRIAR APELIDO PARA DETERMINADO CAMPO
+ muito útil quando estamos fazendo consultas em muitas tabelas
+ não estamos alterando os nomes dos campos, estamos dando apelidados para a apresentação
+ 
+ SELECT p.codigo AS 'Codigo', p.descricao AS 'Descricao', p.preco AS 'Preco', p.codigo_tipo AS 'Tipo Produto' FROM produtos AS p;
