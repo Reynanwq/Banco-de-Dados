@@ -1,0 +1,75 @@
+    Database -> Forwark Enginerr -> My sql code
+
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema mydb
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
+USE `mydb` ;
+
+-- -----------------------------------------------------
+-- Table `mydb`.`T1 Players`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`T1 Players` (
+  `Zeus` VARCHAR(20) NOT NULL,
+  `Oner` VARCHAR(20) NOT NULL,
+  `Faker` VARCHAR(20) NOT NULL,
+  `Gumayusi` VARCHAR(20) NOT NULL,
+  `Keria` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`Zeus`, `Oner`, `Faker`, `Gumayusi`, `Keria`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`T1`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`T1` (
+  `2023.1` INT NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`2023.1`),
+  CONSTRAINT `fk_T1_1`
+    FOREIGN KEY ()
+    REFERENCES `mydb`.`T1 Players` ()
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`DK Players`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`DK Players` (
+  `Canna` VARCHAR(20) NOT NULL,
+  `Canyon` VARCHAR(20) NOT NULL,
+  `Showmakaer` VARCHAR(20) NOT NULL,
+  `Deft` VARCHAR(20) NOT NULL,
+  `Kellin` VARCHAR(20) NOT NULL,
+  PRIMARY KEY (`Canna`, `Canyon`, `Showmakaer`, `Deft`, `Kellin`))
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `mydb`.`DK`
+-- -----------------------------------------------------
+CREATE TABLE IF NOT EXISTS `mydb`.`DK` (
+  `2023.1` INT NOT NULL,
+  PRIMARY KEY (`2023.1`),
+  CONSTRAINT `fk_DK_1`
+    FOREIGN KEY ()
+    REFERENCES `mydb`.`DK Players` ()
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
