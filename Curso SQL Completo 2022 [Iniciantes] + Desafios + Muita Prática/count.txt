@@ -1,0 +1,7 @@
+slecionar a quantidade de linhas presentes na minha tabela.
+
+EXERCICIO 1: quantas linhas temos em nossa tabela
+
+SELECT count(*) FROM tabela
+
+EXERCICIO 2: 
