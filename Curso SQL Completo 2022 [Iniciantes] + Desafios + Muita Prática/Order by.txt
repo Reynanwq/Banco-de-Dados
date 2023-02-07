@@ -1,0 +1,6 @@
+PERMITE QUE EU ORDENE OS RESULTADOS DE UMA COLUNA EM ORDEM CRESCENTE OU DECRESCENTE
+
+SELECT coluna1, coluna2 FROM tabela ORDER BY  asc/desc
+
+asc: orden crescente
+desc: orderm descrescente
