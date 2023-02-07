@@ -1,0 +1,5 @@
+ENCONTRAR ENTRE O VALOR MINIMO E O VALOR MÁXIMO
+
+valor BETWEEN minimo AND maximo
+
+valor >= minimo AND valor<= maximo
