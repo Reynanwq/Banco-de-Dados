@@ -1,0 +1,5 @@
+Divide o resultado da minha pesquisa em grupos
+
+calcular a soma de items ou contar o número de items em um grupo precisamos agrupar os dados
+
+SELECT coluna1, funcaoagregacao(coluna2) FROM tabela GROUPY BY coluna1;
