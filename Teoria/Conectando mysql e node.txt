@@ -1,0 +1,14 @@
+Para realizar a conexão do mySQL com o NodeJS é necessário digitar o seguinte comando no terminal:
+
+- npm install mysql
+
+No meu DB.JS, irei realizar a conexão
+
+const mysql = require('mysql');
+
+const coneection = mysql.createConnection({
+  host: 'localhost',
+  user: 'root',
+  password: '',
+  database: 'EMPRESA'
+});
