@@ -4,11 +4,14 @@ USE lpl;
 SELECT * FROM times;
 SELECT * FROM topPlayer;
 SELECT * FROM junglerPlayer;
+SELECT * FROM midPlayer;
+SELECT * FROM botPlayer;
+SELECT * FROM supPlayer;
 
 DELETE FROM junglerPlayer WHERE id = 1; 
 
 INSERT INTO times (teamName) VALUES ('Anyones Legend');
-INSERT INTO times (teamName) VALUES ('Bilibili Gaming'); 
+INSERT INTO times (teamName) VALUES ('Bilibili Gaming'); 	
 INSERT INTO times (teamName) VALUES ('EDward Gaming');
 INSERT INTO times (teamName) VALUES ('FunPlus Phoenix');
 INSERT INTO times (teamName) VALUES ('Invictus Gaming');
@@ -61,6 +64,60 @@ INSERT INTO junglerPlayer (nickName, lane) VALUES ('Beichuan', 'JG');
 INSERT INTO junglerPlayer (nickName, lane) VALUES ('Ning', 'JG');
 INSERT INTO junglerPlayer (nickName, lane) VALUES ('Karsa', 'JG');
 
+INSERT INTO midPlayer (nickName, lane) VALUES ('Harder' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Yagao' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('FoFo' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Care' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Dove' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Knight' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Haichao' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Scout' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Dream' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Creme' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Strive' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Angel' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Shanks' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Rookie' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Ucal' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Qing' , 'Mid');
+INSERT INTO midPlayer (nickName, lane) VALUES ('Xiaohu' , 'Mid');
+
+
+INSERT INTO botPlayer (nickName, lane) VALUES ('Betty' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Elk' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Leave' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Lwx' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Ahn' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Ruler' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Lpc' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('LP' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Photic' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Able' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Assum' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('GALA' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Hope' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('JackeyLove' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Huanfeng' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Doggo' , 'ADC');
+INSERT INTO botPlayer (nickName, lane) VALUES ('Light' , 'ADC');
+
+INSERT INTO supPlayer (nickName, lane) VALUES ('SwordArt', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('ON', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Meiko', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Lele', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Wink', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Missing', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Jinjao', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Hang', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Zhou', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('ppgod', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Southwind', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Ming', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Iwandy', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Mark', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Xinliu', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Baolan', 'Sup');
+INSERT INTO supPlayer (nickName, lane) VALUES ('Crisp', 'Sup');
 
 CREATE TABLE IF NOT EXISTS times(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
