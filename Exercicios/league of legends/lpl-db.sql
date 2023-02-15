@@ -10,6 +10,8 @@ SELECT * FROM supPlayer;
 
 DELETE FROM junglerPlayer WHERE id = 1; 
 
+UPDATE times set teamName = 'Top Sports' WHERE id = 14;
+
 INSERT INTO times (teamName) VALUES ('Anyones Legend');
 INSERT INTO times (teamName) VALUES ('Bilibili Gaming'); 	
 INSERT INTO times (teamName) VALUES ('EDward Gaming');
