@@ -1,0 +1,8 @@
+-- EXERCICIO 09: FILTRO QUE RETORNE NAME = RAFAEL, CPF COM FINAL 87, ANO DE 2003, MES 8
+
+SELECT * FROM pessoas;
+
+SELECT Nome, Cpf, Ano, Mes FROM pessoas WHERE Nome = 'Reynan'
+AND Cpf = 5123687
+AND Ano = 2003
+AND Mes = 8;
