@@ -8,6 +8,13 @@ SELECT * FROM midPlayer;
 SELECT * FROM botPlayer;
 SELECT * FROM supPlayer;
 
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE top.id = mid.id;
+    
+    
+SELECT LOCALTIME();
+
 DELETE FROM junglerPlayer WHERE id = 1; 
 
 UPDATE times set teamName = 'Top Sports' WHERE id = 14;
