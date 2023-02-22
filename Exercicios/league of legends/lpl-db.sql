@@ -8,13 +8,21 @@ SELECT * FROM midPlayer;
 SELECT * FROM botPlayer;
 SELECT * FROM supPlayer;
 
+-- SELECIONANDO TODOS OS JOGADORES, MAS TÁ DANDO ERRO
 SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
     FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
-    WHERE top.id = mid.id;
-    
-    
+    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id;
+
+
+-- DADOS DO TIME DA ANYONES LEGEND
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 1 AND top.id = 1 AND jg.id = 2 AND mid.id = 1 AND bot.id = 1 AND sup.id = 1;
+
+-- HORA ATUAL
 SELECT LOCALTIME();
 
+-- TIVE QUE DELETAR UM ID
 DELETE FROM junglerPlayer WHERE id = 1; 
 
 UPDATE times set teamName = 'Top Sports' WHERE id = 14;
