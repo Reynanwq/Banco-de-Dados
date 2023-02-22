@@ -1,31 +1,71 @@
 CREATE DATABASE lpl;
 USE lpl;
 
-SELECT * FROM times;
+SELECT * FROM times; 
 SELECT * FROM topPlayer;
 SELECT * FROM junglerPlayer;
 SELECT * FROM midPlayer;
 SELECT * FROM botPlayer;
 SELECT * FROM supPlayer;
 
--- SELECIONANDO TODOS OS JOGADORES, MAS TÁ DANDO ERRO
+-- SELECIONANDO TODOS OS JOGADORES
 SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
     FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
-    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id;
+    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id AND top.id = team.id;
 
 
 -- DADOS DO TIME DA ANYONES LEGEND
 SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
     FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
-    WHERE team.id = 1 AND top.id = 1 AND jg.id = 2 AND mid.id = 1 AND bot.id = 1 AND sup.id = 1;
+    WHERE team.id = 1 AND top.id = 1 AND jg.id = 1 AND mid.id = 1 AND bot.id = 1 AND sup.id = 1;
 
+-- DADOS DO TIME DA BILIBILI GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 2 AND top.id = 2 AND jg.id = 2 AND mid.id = 2 AND bot.id = 2 AND sup.id = 2;
+
+-- DADOS DO TIME DA EDWARD GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 3 AND top.id = 3 AND jg.id = 3 AND mid.id = 3 AND bot.id = 3 AND sup.id = 3;
+
+-- DADOS DO TIME DA FUNPLUS GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 4 AND top.id = 4 AND jg.id = 4 AND mid.id = 4 AND bot.id = 4 AND sup.id = 4;
+    
+-- DADOS DO TIME DA INVICTUS GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 5 AND top.id = 5 AND jg.id = 5 AND mid.id = 5 AND bot.id = 5 AND sup.id = 5;
+    
+-- DADOS DO TIME DA JD GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 6 AND top.id = 6 AND jg.id = 6 AND mid.id = 6 AND bot.id = 6 AND sup.id = 6;
+
+-- DADOS DO TIME DA LGD GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 7 AND top.id = 7 AND jg.id = 7 AND mid.id = 7 AND bot.id = 7 AND sup.id = 7;
+    
+-- DADOS DO TIME DA LNG GAMING
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
+    WHERE team.id = 8 AND top.id = 8 AND jg.id = 8 AND mid.id = 8 AND bot.id = 8 AND sup.id = 8;
+    
 -- HORA ATUAL
 SELECT LOCALTIME();
 
 -- TIVE QUE DELETAR UM ID
 DELETE FROM junglerPlayer WHERE id = 1; 
 
+DROP TABLE junglerPlayer; 
+
 UPDATE times set teamName = 'Top Sports' WHERE id = 14;
+
+UPDATE topPlayer SET nickName = 'YSKM' 
+	WHERE id = 5;
 
 INSERT INTO times (teamName) VALUES ('Anyones Legend');
 INSERT INTO times (teamName) VALUES ('Bilibili Gaming'); 	
