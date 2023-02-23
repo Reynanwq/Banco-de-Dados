@@ -7,11 +7,13 @@ SELECT * FROM junglerPlayer;
 SELECT * FROM midPlayer;
 SELECT * FROM botPlayer;
 SELECT * FROM supPlayer;
+SELECT * FROM games;	
 
 -- SELECIONANDO TODOS OS JOGADORES
-SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup' 
-    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup
-    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id AND top.id = team.id;
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup', gm.win AS 'Win', gm.lose AS 'Lose' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup, games AS gm
+    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id AND top.id = team.id AND top.id = gm.id 
+	ORDER BY win DESC;
 
 
 -- DADOS DO TIME DA ANYONES LEGEND
@@ -176,6 +178,27 @@ INSERT INTO supPlayer (nickName, lane) VALUES ('Xinliu', 'Sup');
 INSERT INTO supPlayer (nickName, lane) VALUES ('Baolan', 'Sup');
 INSERT INTO supPlayer (nickName, lane) VALUES ('Crisp', 'Sup');
 
+-- ADICIONANDO VITORIAS E DERROTAS
+INSERT INTO games (win, lose) VALUES (1, 7);
+INSERT INTO games( win, lose) VALUES (4, 4);
+INSERT INTO games (win, lose) VALUES (5, 2);
+INSERT INTO games( win, lose) VALUES (1, 7);
+INSERT INTO games (win, lose) VALUES (5, 4);
+INSERT INTO games( win, lose) VALUES (6, 2);
+INSERT INTO games (win, lose) VALUES (2, 6);
+INSERT INTO games( win, lose) VALUES (7, 1);
+INSERT INTO games (win, lose) VALUES (2, 6);
+INSERT INTO games( win, lose) VALUES (3, 4);
+INSERT INTO games (win, lose) VALUES (4, 3);
+INSERT INTO games( win, lose) VALUES (4, 4);
+INSERT INTO games (win, lose) VALUES (3, 5);
+INSERT INTO games( win, lose) VALUES (6, 1);
+INSERT INTO games (win, lose) VALUES (5, 3);
+INSERT INTO games( win, lose) VALUES (3, 5);
+INSERT INTO games (win, lose) VALUES (5, 2);
+
+
+
 CREATE TABLE IF NOT EXISTS times(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     teamName VARCHAR(100) NOT NULL
@@ -215,4 +238,10 @@ CREATE TABLE IF NOT EXISTS coach(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nickName VARCHAR(50) NOT NULL,
     lane VARCHAR(5) NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS games(
+	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    win INT NOT NULL,
+    lose INT NOT NULL
 );
