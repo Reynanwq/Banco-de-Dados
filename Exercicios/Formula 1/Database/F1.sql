@@ -5,6 +5,8 @@ USE formula_01;
 
 SELECT * FROM construtores;
 SELECT * FROM circuit;
+SELECT * FROM grand_prix;
+SELECT * FROM race_date;
 
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
@@ -17,6 +19,7 @@ DROP DATABASE formula_1;
 DROP TABLE piloto;
 DELETE FROM circuit WHERE id = 2;
 DROP TABLE circuit;
+DROP TABLE race_date;
 
 -- INSERINDO CONSTRUTORES
 INSERT INTO construtores (nome) VALUES ('Scuderia Ferrari');
@@ -30,6 +33,7 @@ INSERT INTO construtores (nome) VALUES (' Oracle Red Bull Racing');
 INSERT INTO construtores (nome) VALUES ('Williams Racing');
 INSERT INTO construtores (nome) VALUES ('Scuderia AlphaTauri');
 
+-- INSERINDO CIRCUITOS
 INSERT INTO circuit (nome) VALUES (' Circuito Internacional do Barém, Sakhir');
 INSERT INTO circuit (nome) VALUES ('Circuito Corniche de Gidá, Gidá');
 INSERT INTO circuit (nome) VALUES ('Circuito do Grande Prêmio de Melbourne, Melbourne');
@@ -53,6 +57,56 @@ INSERT INTO circuit (nome) VALUES ('Autódromo Hermanos Rodríguez, Cidade do M�
 INSERT INTO circuit (nome) VALUES ('Autódromo José Carlos Pace, São Paulo');
 INSERT INTO circuit (nome) VALUES ('Circuito Urbano de Las Vegas, Las Vegas');
 INSERT INTO circuit (nome) VALUES ('Circuito de Yas Marina, Abu Dhabi');
+
+-- INSERINDO GRAND-PRIX
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio do Barém');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Arábia Saudita');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Austrália');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio do Azerbaijão');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de Miami');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Emília-Romanha');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de Mônaco');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Espanha');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio do Canadá');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Áustria');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Grã-Bretanha');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Hungria');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Bélgica');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio dos Países Baixos');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Itália');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de Singapura');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio do Japão');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio do Catar');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio dos Estados Unidos');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio da Cidade do México');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de São Paulo');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de Las Vegas');
+INSERT INTO grand_prix (nome) VALUES ('Grande Prêmio de Abu Dhabi');
+
+-- INSERINDO DATA DA CORRIDA
+INSERT INTO race_date (race_day) VALUES ('5 de março ');
+INSERT INTO race_date (race_day) VALUES ('19 de março ');
+INSERT INTO race_date (race_day) VALUES ('2 de abril ');
+INSERT INTO race_date (race_day) VALUES ('30 de abril ');
+INSERT INTO race_date (race_day) VALUES ('7 de maio ');
+INSERT INTO race_date (race_day) VALUES ('21 de maio ');
+INSERT INTO race_date (race_day) VALUES ('28 de maio');
+INSERT INTO race_date (race_day) VALUES ('4 de Junho ');
+INSERT INTO race_date (race_day) VALUES ('18 de junho ');
+INSERT INTO race_date (race_day) VALUES ('2 de julho ');
+INSERT INTO race_date (race_day) VALUES ('9 de julho ');
+INSERT INTO race_date (race_day) VALUES ('23 de julho ');
+INSERT INTO race_date (race_day) VALUES ('30 de julho');
+INSERT INTO race_date (race_day) VALUES ('27 de agosto ');
+INSERT INTO race_date (race_day) VALUES ('3 de setembro ');
+INSERT INTO race_date (race_day) VALUES ('17 de setembro');
+INSERT INTO race_date (race_day) VALUES ('24 de setembro ');
+INSERT INTO race_date (race_day) VALUES ('8 de outubro ');
+INSERT INTO race_date (race_day) VALUES ('22 de outubro ');
+INSERT INTO race_date (race_day) VALUES ('29 de outubro ');
+INSERT INTO race_date (race_day) VALUES ('5 de novembro ');
+INSERT INTO race_date (race_day) VALUES ('18 de novembro ');
+INSERT INTO race_date (race_day) VALUES ('26 de novembro ');
 
 
 -- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
@@ -105,9 +159,7 @@ CREATE TABLE IF NOT EXISTS circuit(
 
 CREATE TABLE IF NOT EXISTS race_date(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-    race_day VARCHAR(200) NOT NULL,
-    grand_prix VARCHAR(400)
-    -- FOREIGN KEY (grand_prix) REFERENCES grand_prix(name)
+    race_day VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS pontos(
