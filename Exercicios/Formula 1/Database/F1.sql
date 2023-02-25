@@ -1,6 +1,10 @@
 CREATE DATABASE formula_01;
 USE formula_01;
 
+-- SECAO SELECT
+
+SELECT * FROM construtores;
+
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
 ADD CONSTRAINT fk_construtores FOREIGN KEY (i_construtores) REFERENCES construtores (id);
@@ -10,6 +14,34 @@ DROP DATABASE formula_1;
 
 -- TIVE QUE DELETAR A TABELA E CRIAR NOVAMENTE
 DROP TABLE piloto;
+
+
+-- INSERINDO CONSTRUTORES
+INSERT INTO construtores (nome) VALUES ('Scuderia Ferrari');
+INSERT INTO construtores (nome) VALUES ('Suíça Alfa Romeo F1 Team Stake');
+INSERT INTO construtores (nome) VALUES ('França BWT Alpine F1 Team');
+INSERT INTO construtores (nome) VALUES (' Aston Martin Aramco Cognizant F1 Team');
+INSERT INTO construtores (nome) VALUES ('MoneyGram Haas F1 Team');
+INSERT INTO construtores (nome) VALUES ('McLaren F1 Team');
+INSERT INTO construtores (nome) VALUES ('Mercedes-AMG Petronas F1 Team');
+INSERT INTO construtores (nome) VALUES (' Oracle Red Bull Racing');
+INSERT INTO construtores (nome) VALUES ('Williams Racing');
+INSERT INTO construtores (nome) VALUES ('Scuderia AlphaTauri');
+
+
+-- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
+UPDATE construtores SET nome = 'Alfa Romeo F1 Team Stake'
+	WHERE id = 2;
+    
+UPDATE construtores SET nome = 'BWT Alpine F1 Team' 
+	WHERE id = 3;
+
+UPDATE construtores SET nome = 'Aston Martin Aramco Cognizant F1 Team'
+	WHERE id = 4;
+    
+UPDATE construtores SET nome = 'Oracle Red Bull Racing'
+	WHERE id = 8;
+
 
 -- SECAO CRIANDO TABELAS
 
