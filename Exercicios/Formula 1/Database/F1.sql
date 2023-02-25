@@ -4,6 +4,7 @@ USE formula_01;
 -- SECAO SELECT
 
 SELECT * FROM construtores;
+SELECT * FROM circuit;
 
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
@@ -14,7 +15,8 @@ DROP DATABASE formula_1;
 
 -- TIVE QUE DELETAR A TABELA E CRIAR NOVAMENTE
 DROP TABLE piloto;
-
+DELETE FROM circuit WHERE id = 2;
+DROP TABLE circuit;
 
 -- INSERINDO CONSTRUTORES
 INSERT INTO construtores (nome) VALUES ('Scuderia Ferrari');
@@ -27,6 +29,30 @@ INSERT INTO construtores (nome) VALUES ('Mercedes-AMG Petronas F1 Team');
 INSERT INTO construtores (nome) VALUES (' Oracle Red Bull Racing');
 INSERT INTO construtores (nome) VALUES ('Williams Racing');
 INSERT INTO construtores (nome) VALUES ('Scuderia AlphaTauri');
+
+INSERT INTO circuit (nome) VALUES (' Circuito Internacional do Barém, Sakhir');
+INSERT INTO circuit (nome) VALUES ('Circuito Corniche de Gidá, Gidá');
+INSERT INTO circuit (nome) VALUES ('Circuito do Grande Prêmio de Melbourne, Melbourne');
+INSERT INTO circuit (nome) VALUES ('Circuito Urbano de Bacu, Bacu');
+INSERT INTO circuit (nome) VALUES ('Autódromo Internacional de Miami, Miami Gardens');
+INSERT INTO circuit (nome) VALUES ('Autódromo Enzo e Dino Ferrari, Ímola');
+INSERT INTO circuit (nome) VALUES ('Circuito de Mônaco, Monte Carlo');
+INSERT INTO circuit (nome) VALUES ('Circuito de Barcelona-Catalunha, Montmeló');
+INSERT INTO circuit (nome) VALUES ('Circuito Gilles Villeneuve, Montreal');
+INSERT INTO circuit (nome) VALUES ('Red Bull Ring, Spielberg');
+INSERT INTO circuit (nome) VALUES ('Circuito de Silverstone, Silverstone');
+INSERT INTO circuit (nome) VALUES ('Hungaroring, Mogyoród');
+INSERT INTO circuit (nome) VALUES ('Circuito de Spa-Francorchamps, Stavelot');
+INSERT INTO circuit (nome) VALUES ('Circuito de Zandvoort, Zandvoort');
+INSERT INTO circuit (nome) VALUES ('Autódromo Nacional de Monza, Monza');
+INSERT INTO circuit (nome) VALUES ('Circuito Urbano de Marina Bay, Singapura');
+INSERT INTO circuit (nome) VALUES ('Curso Internacional de Corridas de Suzuka, Suzuka');
+INSERT INTO circuit (nome) VALUES ('Circuito Internacional de Losail, Lusail');
+INSERT INTO circuit (nome) VALUES ('Circuito das Américas, Austin');
+INSERT INTO circuit (nome) VALUES ('Autódromo Hermanos Rodríguez, Cidade do México');
+INSERT INTO circuit (nome) VALUES ('Autódromo José Carlos Pace, São Paulo');
+INSERT INTO circuit (nome) VALUES ('Circuito Urbano de Las Vegas, Las Vegas');
+INSERT INTO circuit (nome) VALUES ('Circuito de Yas Marina, Abu Dhabi');
 
 
 -- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
