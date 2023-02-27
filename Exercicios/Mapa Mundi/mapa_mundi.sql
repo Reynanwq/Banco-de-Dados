@@ -57,27 +57,48 @@ CREATE TABLE oceanos(
 CREATE TABLE paises_africanos(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     pais VARCHAR(300) NOT NULL,
+    capital VARCHAR(200) NOT NULL,
     populacao INT NOT NULL,
-    tam FLOAT NOT NULL.
-    africa_setentrional BOOLEAN NOT NULL,
-    africa_ocidental BOOLEAN NOT NULL,
-    africa_central BOOLEAN NOT NULL,
-    africa_oriental BOOLEAN NOT NULL,
-    africa_meridional BOOLEAN NOT NULL,
+    tam FLOAT NOT NULL,
+    idioma VARCHAR(100) NOT NULL,
+    regiao VARCHAR(100) NOT NULL
 );
 
-CREATE TABLE paises_americanos(
+CREATE TABLE paises_da_america(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pais VARCHAR(300) NOT NULL,
+    populacao INT NOT NULL,
+    tam FLOAT NOT NULL,
+    continente_na_america VARCHAR(200) NOT NULL,
+    capital VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE paises_asiaticos(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pais VARCHAR(300) NOT NULL,
+    capital VARCHAR(200) NOT NULL,
+    populacao INT NOT NULL,
+    tam FLOAT NOT NULL,
+    idioma VARCHAR(100) NOT NULL,
+    regiao VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE paises_europeus(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pais VARCHAR(300) NOT NULL,
+    capital VARCHAR(200) NOT NULL,
+    populacao INT NOT NULL,
+    idioma VARCHAR(100) NOT NULL,
+    tam FLOAT NOT NULL,
+    regiao VARCHAR(200) NOT NULL
 );
 
 CREATE TABLE paises_da_oceania(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    pais VARCHAR(300) NOT NULL,
+    capital VARCHAR(200) NOT NULL,
+    populacao INT NOT NULL,
+    idioma VARCHAR(100) NOT NULL,
+    tam FLOAT NOT NULL,
+    regiao VARCHAR(200) NOT NULL
 );
