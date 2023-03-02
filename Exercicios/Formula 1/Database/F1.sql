@@ -7,6 +7,7 @@ SELECT * FROM construtores;
 SELECT * FROM circuit;
 SELECT * FROM grand_prix;
 SELECT * FROM race_date;
+SELECT * FROM chefe_de_equipe;
 
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
@@ -108,6 +109,16 @@ INSERT INTO race_date (race_day) VALUES ('5 de novembro ');
 INSERT INTO race_date (race_day) VALUES ('18 de novembro ');
 INSERT INTO race_date (race_day) VALUES ('26 de novembro ');
 
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Toto Wolff', 50, 'Austriaco', 'Mercedes');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Christian Horner', 49, 'Britânico', 'Red Bull');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Mattia Binotto', 53, 'Italiano', 'Ferrari');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Otmar Szafnauer', 58, 'ARomenio-Americano', 'Alpine');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Andreas Seidl', 47, 'Alemao', 'MClaren');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Jost Capito', 64, 'Alemao', 'Williams');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Frederic Vasseur', 54, 'Frances', 'Alpha Romeu');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Franz Tost', 67, 'Austriaco', 'AlphaTauri');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Gunther Steiner', 57, 'Italiano-Americano', 'Haas');
+INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Mike Krack', 50, 'Luxembourgish', 'Aston Martin');
 
 -- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
 UPDATE construtores SET nome = 'Alfa Romeo F1 Team Stake'
