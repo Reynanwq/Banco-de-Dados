@@ -9,6 +9,7 @@ SELECT * FROM asia;
 SELECT * FROM europa;
 SELECT * FROM oceania;
 SELECT * FROM oceanos;
+SELECT * FROM paises_africanos;
 
 
 -- CRIANDO TABELAS
@@ -129,5 +130,5 @@ INSERT INTO oceanos (name, tam) VALUES ('Pacífico Norte', 107.0); -- MIL
 INSERT INTO oceanos (name, tam) VALUES ('Pacífico Sul', 37.0); -- EM MILHOES
 INSERT INTO oceanos (name, tam) VALUES ('Atlântico Norte', 107.0); -- EM MILHOES
 
-
-
+INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('África do Sul', 'Cidade do Caboo', 57780000, 1221037, 'Inglês', 'África Meridional');
+INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Angola', 'Luanda', 328700000, 1247000, 'Português', 'África Central');
