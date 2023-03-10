@@ -1,6 +1,17 @@
 CREATE DATABASE Mapa_Mundi;
 USE Mapa_Mundi;
 
+-- SELECIONANDO
+SELECT * FROM africa;
+SELECT * FROM america;
+SELECT * FROM antartica;
+SELECT * FROM asia;
+SELECT * FROM europa;
+SELECT * FROM oceania;
+SELECT * FROM oceanos;
+
+
+-- CRIANDO TABELAS
 CREATE TABLE africa(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     continente_name VARCHAR(70) NOT NULL,
@@ -102,3 +113,21 @@ CREATE TABLE paises_da_oceania(
     tam FLOAT NOT NULL,
     regiao VARCHAR(200) NOT NULL
 );
+
+-- INSERINDO DADOS
+INSERT INTO africa (continente_name, populacao, qtd_paises, tam) VALUES ('África', 1225080510, 54, 30.37);
+INSERT INTO america (continente_name, populacao, qtd_paises, tam) VALUES ('América', 902892047, 36, 42.189120);
+INSERT INTO antartica (continente_name, populacao, qtd_paises, tam) VALUES ('Antártida', 4000, 0, 14.000000);
+INSERT INTO asia (continente_name, populacao, qtd_paises, tam) VALUES ('Ásia', 446267673, 49, 43.810582);
+INSERT INTO europa (continente_name, populacao, qtd_paises) VALUES ('Europa', 741447158, 50);
+INSERT INTO oceania (continente_name, populacao, qtd_paises, tam) VALUES ('Oceania', 40117432, 24, 8480355);
+INSERT INTO oceanos (name, tam) VALUES ('Atlântico Sul', 185); -- MIL
+INSERT INTO oceanos (name, tam) VALUES ('Índico', 70.5); -- EM MILHOES
+INSERT INTO oceanos (name, tam) VALUES ('Glacial Ártico', 15.5); -- EM MILHOES
+INSERT INTO oceanos (name, tam) VALUES ('Glacial Antártico', 21.9); -- EM MILHOES
+INSERT INTO oceanos (name, tam) VALUES ('Pacífico Norte', 107.0); -- MIL
+INSERT INTO oceanos (name, tam) VALUES ('Pacífico Sul', 37.0); -- EM MILHOES
+INSERT INTO oceanos (name, tam) VALUES ('Atlântico Norte', 107.0); -- EM MILHOES
+
+
+
