@@ -188,6 +188,33 @@ INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VAL
 
 -- INSERINDO DADDOS DOS PAISES DA ASIA
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Afeganistão', 'Cabul', , , '', ''); 
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Arábia Saudita', 'Riad', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Armênia', 'Yerevan', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Azerbaijão', 'Baku', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Bahrein', 'Manama', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Bangladesh', 'Daca', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Brunei', 'Bandar Seri Begawan', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Butão', 'Timbu', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Camboja', 'Phnom Penh', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Cazaquistão', 'Nursultan', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Catar', 'Doha', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('China', 'Pequim', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Chipre', 'Nicósia', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Cingapura', 'Cingapura', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Coreia do Norte', 'Pyongyang', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Coreia do Sul', 'Seul', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Egito', 'Cairo', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Emirados Árabes', 'Abu Dhabi', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Filipinas', 'Manila', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Geórgia', 'Tbilisi', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Iêmen', 'Sana', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Íncia', 'Nova Deli', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Indonésia', 'Jacarta', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Irã', 'Teerã', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Iraque', 'Bagdá', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Israel', 'Jerusalém', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Japão', 'Tóquio', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Jordânia', 'Amã', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
@@ -195,33 +222,8 @@ INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VAL
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
-Arábia Saudita (Riad)
-Armênia* (Yerevan)
-Azerbaijão* (Baku)
-Bahrein (Manama)
-Bangladesh (Daca)
-Brunei (Bandar Seri Begawan)
-Butão (Timbu)
-Camboja (Phnom Penh)
-Cazaquistão (Nursultan)
-Catar (Doha)
-China (Pequim)
-Chipre* (Nicósia)
-Cingapura (Cingapura)
-Coreia do Norte (Pyongyang)
-Coreia do Sul (Seul)
-Egito* (Cairo)
-Emirados Árabes (Abu Dhabi)
-Filipinas (Manila)
-Geórgia* (Tbilisi)
-Iêmen (Sana)
-Índia (Nova Deli)
-Indonésia* (Jacarta)
-Irã (Teerã)
-Iraque (Bagdá)
-Israel (Jerusalém)
-Japão (Tóquio)
-Jordânia (Amã)
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+
 Kuwait (Kuwait)
 Laos (Vienciana)
 Líbano (Beirute)
