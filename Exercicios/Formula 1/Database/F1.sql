@@ -8,6 +8,7 @@ SELECT * FROM circuit;
 SELECT * FROM grand_prix;
 SELECT * FROM race_date;
 SELECT * FROM chefe_de_equipe;
+SELECT * FROM piloto;
 
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
@@ -109,6 +110,7 @@ INSERT INTO race_date (race_day) VALUES ('5 de novembro ');
 INSERT INTO race_date (race_day) VALUES ('18 de novembro ');
 INSERT INTO race_date (race_day) VALUES ('26 de novembro ');
 
+-- INSERINDO CHEFES DE EQUIPE
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Toto Wolff', 50, 'Austriaco', 'Mercedes');
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Christian Horner', 49, 'Britânico', 'Red Bull');
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Mattia Binotto', 53, 'Italiano', 'Ferrari');
@@ -119,6 +121,31 @@ INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Fre
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Franz Tost', 67, 'Austriaco', 'AlphaTauri');
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Gunther Steiner', 57, 'Italiano-Americano', 'Haas');
 INSERT INTO chefe_de_equipe(nome, age, nacionalidade, construtores) VALUES ('Mike Krack', 50, 'Luxembourgish', 'Aston Martin');
+ 
+-- INSERINDO OS PILOTOS
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Lewis Hamilton', 38, 'Britânico');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('George Russel', 25, 'Britânico');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Max Verstappen', 25, 'Holandês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Sergio Pérez', 33, 'Mexicano');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Charles Leclerc', 25, 'Ferrari');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Carlos Sainz', 28, 'Espanhou');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Oscar Piastri', 21, 'Australiano');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Lando Norris', 23, 'Brintânico');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Esteban Ocon', 26, 'Francês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Pierre Gasly', 27, 'Francês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Lance Stroll', 24, 'Canadense');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Fernando Alonso', 41, 'Espanhou');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Yuki Tsunoda', 22, 'Japonês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Nick de Vries', 28, 'Holandês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Alexander Albon', 26, 'Tailandês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Logan Sargeant', 22, 'Americano');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Valtteri Bottas', 33, 'Finlandês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Guanyu Zhou', 23, 'Chinês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Kevin Magnussen', 30, 'Dinamarquês');
+INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Nico Hulkenberg', 35, 'Alemão');
+
+
+
 
 -- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
 UPDATE construtores SET nome = 'Alfa Romeo F1 Team Stake'
