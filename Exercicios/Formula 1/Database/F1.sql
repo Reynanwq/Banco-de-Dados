@@ -144,6 +144,13 @@ INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Guanyu Zhou', 23, 'Chinê
 INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Kevin Magnussen', 30, 'Dinamarquês');
 INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Nico Hulkenberg', 35, 'Alemão');
 
+ points INT NOT NULL,
+    piloto VARCHAR(50)
+    
+-- INSERINDO PONTUAÇÃO
+INSERT INTO pontos (points, piloto) VALUES ('', 'Lewis Hamilton');
+INSERT INTO pontos (points, piloto) VALUES ('', 'George Russel');
+
 
 
 
