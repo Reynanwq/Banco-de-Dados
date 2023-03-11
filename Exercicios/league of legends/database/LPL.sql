@@ -249,7 +249,6 @@ INSERT INTO games (win, lose) VALUES (5, 3);
 INSERT INTO games( win, lose) VALUES (3, 5);
 INSERT INTO games (win, lose) VALUES (5, 2);
 
-
 -- SECAO CRIACAO DE TABELAS
 CREATE TABLE IF NOT EXISTS times(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -297,3 +296,55 @@ CREATE TABLE IF NOT EXISTS games(
     win INT NOT NULL,
     lose INT NOT NULL
 );
+
+SELECT * FROM games
+	ORDER BY win DESC;
+    
+-- SELECIONANDO TODOS OS DADOS
+SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup', gm.win AS 'Win', gm.lose AS 'Lose' 
+    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup, games AS gm
+    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id AND top.id = team.id AND top.id = gm.id 
+	ORDER BY win DESC;
+    
+-- PRIMEIRA ATUALIZACAO DA TABELA: DIA 11/02/2023
+
+-- LNG
+UPDATE games SET win = 9, lose = 2
+	WHERE id = 8;
+
+-- JDG
+UPDATE games SET win = 9, lose = 3
+	WHERE id = 6;
+
+-- TOP
+UPDATE games SET win = 8, lose = 4
+	WHERE id = 3;
+-- WEIBO
+
+-- EDG
+
+-- TT
+
+-- IG
+
+-- BLG
+
+-- RNG
+
+-- RA
+
+-- OMG
+
+-- WE
+
+-- UP
+
+-- NIP
+
+-- LGD
+
+-- FPX
+
+-- AL
+
+
