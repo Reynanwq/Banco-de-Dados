@@ -9,6 +9,13 @@ SELECT * FROM grand_prix;
 SELECT * FROM race_date;
 SELECT * FROM chefe_de_equipe;
 SELECT * FROM piloto;
+SELECT * FROM pontos;
+
+-- TABELA COMPLETA
+SELECT const.nome AS 'Equipe', race.race_day AS 'Data', chefe.nome AS 'Chefe de Equipe', driver.nome AS 'Piloto', pon.points AS 'Pontuação Geral'
+	FROM construtores AS const, race_date AS race, chefe_de_equipe AS chefe, piloto AS driver, pontos AS pon
+    WHERE const.id = race.id AND const.id = driver.id AND const.id = pon.id
+    ORDER BY points DESC;
 
 -- APENAS PARA REALIZAR A PRATICA DE PRIMARY KEY E FOREIGN KEY
 ALTER TABLE piloto 
@@ -143,16 +150,28 @@ INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Valtteri Bottas', 33, 'Fi
 INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Guanyu Zhou', 23, 'Chinês');
 INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Kevin Magnussen', 30, 'Dinamarquês');
 INSERT INTO piloto (nome, age, nacionalidade) VALUES ('Nico Hulkenberg', 35, 'Alemão');
-
- points INT NOT NULL,
-    piloto VARCHAR(50)
     
 -- INSERINDO PONTUAÇÃO
-INSERT INTO pontos (points, piloto) VALUES ('', 'Lewis Hamilton');
-INSERT INTO pontos (points, piloto) VALUES ('', 'George Russel');
-
-
-
+INSERT INTO pontos (points, piloto) VALUES ( 10, 'Lewis Hamilton');
+INSERT INTO pontos (points, piloto) VALUES ( 6, 'George Russel');
+INSERT INTO pontos (points, piloto) VALUES ( 25, 'Max Verstappen');
+INSERT INTO pontos (points, piloto) VALUES ( 18, 'Sergio Pérez');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Charles Leclerc');
+INSERT INTO pontos (points, piloto) VALUES ( 12, 'Carlos Sainz');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Oscar Piastri');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Lando Norris');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Esteban Ocon');
+INSERT INTO pontos (points, piloto) VALUES ( 2, 'Pierre Gasly');
+INSERT INTO pontos (points, piloto) VALUES ( 8, 'Lance Stroll');
+INSERT INTO pontos (points, piloto) VALUES ( 15, 'Fernando Alonso');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Yuki Tsunoda');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Nick de Vries');
+INSERT INTO pontos (points, piloto) VALUES ( 1, 'Alexander Albon');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Logan Sargeant');
+INSERT INTO pontos (points, piloto) VALUES ( 4, 'Valtteri Bottas');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Guanyu Zhou');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Kevin Magnussen');
+INSERT INTO pontos (points, piloto) VALUES ( 0, 'Nico Hulkenberg');
 
 -- ATUALIZACOES QUE PRECISARAM SER FEITAS NA  TABELA CONSTRUTORES
 UPDATE construtores SET nome = 'Alfa Romeo F1 Team Stake'
