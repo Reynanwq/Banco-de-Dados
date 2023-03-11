@@ -130,6 +130,7 @@ INSERT INTO oceanos (name, tam) VALUES ('Pacífico Norte', 107.0); -- MIL
 INSERT INTO oceanos (name, tam) VALUES ('Pacífico Sul', 37.0); -- EM MILHOES
 INSERT INTO oceanos (name, tam) VALUES ('Atlântico Norte', 107.0); -- EM MILHOES
 
+-- INSERINDO DADOS DOS PAISES AFRICANOS
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('África do Sul', 'Cidade do Caboo', 57780000, 1221037, 'Inglês', 'África Meridional');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Angola', 'Luanda', 328700000, 1247000, 'Português', 'África Central');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Argélia', 'Argel');
@@ -185,5 +186,62 @@ INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VAL
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Zâmbia', 'Lusaka');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Zimbábue', 'Harare');
 
+-- INSERINDO DADDOS DOS PAISES DA ASIA
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Afeganistão', 'Cabul', , , '', ''); 
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('', '', , , '', '');
+Arábia Saudita (Riad)
+Armênia* (Yerevan)
+Azerbaijão* (Baku)
+Bahrein (Manama)
+Bangladesh (Daca)
+Brunei (Bandar Seri Begawan)
+Butão (Timbu)
+Camboja (Phnom Penh)
+Cazaquistão (Nursultan)
+Catar (Doha)
+China (Pequim)
+Chipre* (Nicósia)
+Cingapura (Cingapura)
+Coreia do Norte (Pyongyang)
+Coreia do Sul (Seul)
+Egito* (Cairo)
+Emirados Árabes (Abu Dhabi)
+Filipinas (Manila)
+Geórgia* (Tbilisi)
+Iêmen (Sana)
+Índia (Nova Deli)
+Indonésia* (Jacarta)
+Irã (Teerã)
+Iraque (Bagdá)
+Israel (Jerusalém)
+Japão (Tóquio)
+Jordânia (Amã)
+Kuwait (Kuwait)
+Laos (Vienciana)
+Líbano (Beirute)
+Malásia (Kuala Lumpur)
+Maldivas (Malé)
+Mianmar (Nay Puy Taw)
+Mongólia (Ulan Bator)
+Nepal (Katmandu)
+Omã (Mascate)
+Paquistão (Islamabad)
+Quirguistão (Bishkek)
+Rússia* (Moscou)
+Síria (Damasco)
+Sri Lanka (Kotte)
+Tajiquistão (Dushanbe)
+Tailândia (Bangkok)
+Timor-Leste* (Díli)
+Turcomenistão (Asgabate)
+Turquia* (Ancara)
+Uzbequistão (Tashkent)
+Vietnã (Hanói)"
 
-
+Veja mais sobre "Países da Ásia" em: https://brasilescola.uol.com.br/geografia/paises-asia.htm
