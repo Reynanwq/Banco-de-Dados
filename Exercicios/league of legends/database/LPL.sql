@@ -8,6 +8,8 @@ SELECT * FROM midPlayer;
 SELECT * FROM botPlayer;
 SELECT * FROM supPlayer;
 SELECT * FROM games;	
+SELECT * FROM games
+	ORDER BY win DESC;
 
 -- SELECIONANDO TODOS OS DADOS
 SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup', gm.win AS 'Win', gm.lose AS 'Lose' 
@@ -296,15 +298,6 @@ CREATE TABLE IF NOT EXISTS games(
     win INT NOT NULL,
     lose INT NOT NULL
 );
-
-SELECT * FROM games
-	ORDER BY win DESC;
-    
--- SELECIONANDO TODOS OS DADOS
-SELECT team.teamName AS 'Team', top.nickName AS 'Top Laner', jg.nickName AS 'Jungler', mid.nickName AS 'Mid Laner', bot.nickName AS 'ADC', sup.nickName AS 'Sup', gm.win AS 'Win', gm.lose AS 'Lose' 
-    FROM times AS team, topPlayer AS top, junglerPlayer AS jg, midPlayer AS mid, botPlayer AS bot, supPlayer AS sup, games AS gm
-    WHERE top.id = mid.id AND top.id = jg.id AND top.id = bot.id AND top.id = sup.id AND top.id = team.id AND top.id = gm.id 
-	ORDER BY win DESC;
     
 -- PRIMEIRA ATUALIZACAO DA TABELA: DIA 11/02/2023
 
@@ -318,33 +311,60 @@ UPDATE games SET win = 9, lose = 3
 
 -- TOP
 UPDATE games SET win = 8, lose = 4
-	WHERE id = 3;
+	WHERE id = 14;
+    
 -- WEIBO
+UPDATE games SET win = 7, lose = 5
+	WHERE id = 17;
 
 -- EDG
+UPDATE games SET win = 10, lose = 2
+	WHERE id = 3;
 
 -- TT
-
+UPDATE games SET win = 7, lose = 5
+	WHERE id = 15;
+    
 -- IG
-
+UPDATE games SET win = 7, lose = 6
+	WHERE id = 5;
+    
 -- BLG
+UPDATE games SET win = 7, lose = 5
+	WHERE id = 2;
 
 -- RNG
-
+UPDATE games SET win = 6, lose = 7
+	WHERE id = 12;
+    
 -- RA
-
+UPDATE games SET win = 4, lose = 7
+	WHERE id = 11;
+    
 -- OMG
-
+UPDATE games SET win = 8, lose = 4
+	WHERE id = 10;
+    
 -- WE
+UPDATE games SET win = 6, lose = 7
+	WHERE id = 13;
 
 -- UP
-
+UPDATE games SET win = 3, lose = 9
+	WHERE id = 16;
+    
 -- NIP
+UPDATE games SET win = 3, lose = 9
+	WHERE id = 9;
 
 -- LGD
+UPDATE games SET win = 5, lose = 8
+	WHERE id = 7;
 
 -- FPX
+UPDATE games SET win = 2, lose = 10
+	WHERE id = 4;
 
 -- AL
-
-
+UPDATE games SET win = 2, lose = 10
+	WHERE id = 1;
