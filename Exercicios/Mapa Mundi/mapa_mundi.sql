@@ -257,79 +257,20 @@ INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, cap
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Nicarágua', , , 'América Central', 'Manágua');  
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Panamá', , , 'América Central', 'Cidade do Panamá');  
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('República DOminicana', , , 'América Central', 'Santo Domingo');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
-Santa Lúcia 
-Castries 
-América Central  
-
-São Cristóvão e Névis 
-Basseterre 
-América Central  
-
-São Vicente e Granadinas 
-Kingstown 
-América Central  
-
-Trinidad e Tobago 
-Porto Espanha 
-América Central  
-
-Argentina 
-Buenos Aires 
-América do Sul  
-
-Bolívia 
-La Paz  
-América do Sul 
-
-Brasil 
-Brasília 
-América do Sul 
-
-Chile 
-Santiago 
-América do Sul 
-
-Colômbia 
-Bogotá 
-América do Sul 
-
-Equador 
-Quito 
-América do Sul 
-
-Guiana 
-Georgetown 
-América do Sul 
-
-Guiana Francesa 
-Caiena 
-América do Sul 
-
-Paraguai 
-Assunção 
-América do Sul 
-
-Peru 
-Lima 
-América do Sul 
-
-Suriname 
-Paramaribo 
-América do Sul 
-
-Uruguai 
-Montevidéu 
-América do Sul 
-
-Venezuela 
-Caracas 
-América do Sul"
-
-
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Santa Lúcia', , , 'América Central', 'Castries');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('São Cristóvão e Névis', , , 'América Central', 'Basseterre');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('São Viccente e Granadinas', , , 'America Central', 'Kingstown');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Trinidad e Tobago', , , 'América Central', 'Porto Espanha');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Argentina', , , 'América do Sul', 'Buenos Aires');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Bolívia', , , 'América do Sul', 'La Paz');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Brazil', , , 'América do Sul', 'Brasília');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Chile', , , 'América do Sul', 'Santiago');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Colômbia', , , 'América do Sul', 'Bogotá');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Equador', , , 'América do Sul', 'Quito');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Guiana', , , 'América do Sul', 'Georgetown');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Guiana Francesa', , , 'América do Sul', 'Caiena');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Paraguai', , , 'América do Sul', 'Assunção');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Peru', , , 'América do Sul', 'Lima');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Suriname', , , 'América do Sul', 'Paramaribo');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Uruguai', , , 'América do Sul', 'Montevidéu');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Venezuela', , , 'América do Sul', 'Caracas'); 
