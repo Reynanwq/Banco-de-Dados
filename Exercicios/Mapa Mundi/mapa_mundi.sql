@@ -244,68 +244,26 @@ INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, cap
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Antígua e Barbuda', , , 'América Central', 'Saint John s');
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Bahamas', , , 'América Central', 'Nassau');
 INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Barbados', , , 'América Central', 'Bridgetown');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
-INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', ''); 
-
-Belize 
-Belmopan 
-América Central  
-
-Costa Rica 
-São José 
-América Central  
-
-Cuba 
-Havana 
-América Central  
-
-Dominica 
-Roseau 
-América Central  
-
-El Salvador  
-São Salvador 
-América Central  
-
-Granada 
-Saint George's 
-América Central  
-
-Guatemala 
-Cidade da Guatemala 
-América Central  
-
-Haiti 
-Porto Príncipe 
-América Central  
-
-Honduras 
-Tegucigalpa 
-América Central  
-
-Jamaica 
-Kingston 
-América Central  
-
-Nicarágua 
-Manágua 
-América Central  
-
-Panamá 
-Cidade do Panamá 
-América Central  
-
-República Dominicana 
-Santo Domingo 
-América Central  
-
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Beliza', , , 'América Central', 'Belmopan');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Costa Rica', , , 'América Central', 'São José');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Cuba', , , 'América Central', 'Havana');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Dominica', , , 'América Central', 'Roseau');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('El Salvador', , , 'América Central', 'São Salvador');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Granada', , , 'América Central', 'Saint George s');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Guatemala', , , 'América Central', 'Cidade da Guatemala');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Haiti', , , 'América Central', 'Porto Principe');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Honduras', , , 'América Central', 'Teguciagalpa');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Jamaica', , , 'América Central', 'Kingston');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Nicarágua', , , 'América Central', 'Manágua');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Panamá', , , 'América Central', 'Cidade do Panamá');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('República DOminicana', , , 'América Central', 'Santo Domingo');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');  
 Santa Lúcia 
 Castries 
 América Central  
