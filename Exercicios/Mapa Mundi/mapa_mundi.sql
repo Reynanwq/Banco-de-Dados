@@ -239,293 +239,139 @@ INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VAL
 
 -- ADICIONANDO DADOS DOS PAISES DA AMERICA LATINA
 INSERT INTO paises_da_america (pais, populacao, tam, continente_na_america, capital) VALUES ('Canada', , , 'America do Norte', 'Ottawa');
-
-
-Canadá 
-	
-
-Ottawa 
-	
-
-América do Norte 
-
-Estados Unidos 
-	
-
-Washington D.C. 
-	
-
-América do Norte 
-
-México 
-	
-
-Cidade do México 
-	
-
-América do Norte 
-
-Antígua e Barbuda 
-	
-
-Saint John's 
-	
-
-América Central  
-
-Bahamas 
-	
-
-Nassau 
-	
-
-América Central  
-
-Barbados 
-	
-
-Bridgetown 
-	
-
-América Central  
+INSERT INTO paises_da_america (pais, populacao, tam, continente_na_america, capital) VALUES ('Estados Unidos', , , 'América do Norte', 'Washington D.C.');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('México', , , 'América do Norte', 'Cidade do México');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Antígua e Barbuda', , , 'América Central', 'Saint John s');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Bahamas', , , 'América Central', 'Nassau');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('Barbados', , , 'América Central', 'Bridgetown');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', '');
+INSERT INTO Paises_da_americca (pais, populacao, tam, continente_na_america, capital) VALUES ('', , , '', ''); 
 
 Belize 
-	
-
 Belmopan 
-	
-
 América Central  
 
 Costa Rica 
-	
-
 São José 
-	
-
 América Central  
 
 Cuba 
-	
-
 Havana 
-	
-
 América Central  
 
 Dominica 
-	
-
 Roseau 
-	
-
 América Central  
 
 El Salvador  
-	
-
 São Salvador 
-	
-
 América Central  
 
 Granada 
-	
-
 Saint George's 
-	
-
 América Central  
 
 Guatemala 
-	
-
 Cidade da Guatemala 
-	
-
 América Central  
 
 Haiti 
-	
-
 Porto Príncipe 
-	
-
 América Central  
 
 Honduras 
-	
-
 Tegucigalpa 
-	
-
 América Central  
 
 Jamaica 
-	
-
 Kingston 
-	
-
 América Central  
 
 Nicarágua 
-	
-
 Manágua 
-	
-
 América Central  
 
 Panamá 
-	
-
 Cidade do Panamá 
-	
-
 América Central  
 
 República Dominicana 
-	
-
 Santo Domingo 
-	
-
 América Central  
 
 Santa Lúcia 
-	
-
 Castries 
-	
-
 América Central  
 
 São Cristóvão e Névis 
-	
-
 Basseterre 
-	
-
 América Central  
 
 São Vicente e Granadinas 
-	
-
 Kingstown 
-	
-
 América Central  
 
 Trinidad e Tobago 
-	
-
 Porto Espanha 
-	
-
 América Central  
 
 Argentina 
-	
-
 Buenos Aires 
-	
-
 América do Sul  
 
 Bolívia 
-	
-
 La Paz  
-	
-
 América do Sul 
 
 Brasil 
-	
-
 Brasília 
-	
-
 América do Sul 
 
 Chile 
-	
-
 Santiago 
-	
-
 América do Sul 
 
 Colômbia 
-	
-
 Bogotá 
-	
-
 América do Sul 
 
 Equador 
-	
-
 Quito 
-	
-
 América do Sul 
 
 Guiana 
-	
-
 Georgetown 
-	
-
 América do Sul 
 
 Guiana Francesa 
-	
-
 Caiena 
-	
-
 América do Sul 
 
 Paraguai 
-	
-
 Assunção 
-	
-
 América do Sul 
 
 Peru 
-	
-
 Lima 
-	
-
 América do Sul 
 
 Suriname 
-	
-
 Paramaribo 
-	
-
 América do Sul 
 
 Uruguai 
-	
-
 Montevidéu 
-	
-
 América do Sul 
 
 Venezuela 
-	
-
 Caracas 
-	
-
 América do Sul"
+
 
