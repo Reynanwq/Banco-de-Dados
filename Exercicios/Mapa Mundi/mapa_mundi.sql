@@ -236,3 +236,296 @@ INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VAL
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Turquia', 'Ancara', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Uzbequistão', 'Tashkent', , , '', '');
 INSERT INTO paises_asiaticos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Vietnã', 'Hanói', , , '', '');
+
+-- ADICIONANDO DADOS DOS PAISES DA AMERICA LATINA
+INSERT INTO paises_da_america (pais, populacao, tam, continente_na_america, capital) VALUES ('Canada', , , 'America do Norte', 'Ottawa');
+
+
+Canadá 
+	
+
+Ottawa 
+	
+
+América do Norte 
+
+Estados Unidos 
+	
+
+Washington D.C. 
+	
+
+América do Norte 
+
+México 
+	
+
+Cidade do México 
+	
+
+América do Norte 
+
+Antígua e Barbuda 
+	
+
+Saint John's 
+	
+
+América Central  
+
+Bahamas 
+	
+
+Nassau 
+	
+
+América Central  
+
+Barbados 
+	
+
+Bridgetown 
+	
+
+América Central  
+
+Belize 
+	
+
+Belmopan 
+	
+
+América Central  
+
+Costa Rica 
+	
+
+São José 
+	
+
+América Central  
+
+Cuba 
+	
+
+Havana 
+	
+
+América Central  
+
+Dominica 
+	
+
+Roseau 
+	
+
+América Central  
+
+El Salvador  
+	
+
+São Salvador 
+	
+
+América Central  
+
+Granada 
+	
+
+Saint George's 
+	
+
+América Central  
+
+Guatemala 
+	
+
+Cidade da Guatemala 
+	
+
+América Central  
+
+Haiti 
+	
+
+Porto Príncipe 
+	
+
+América Central  
+
+Honduras 
+	
+
+Tegucigalpa 
+	
+
+América Central  
+
+Jamaica 
+	
+
+Kingston 
+	
+
+América Central  
+
+Nicarágua 
+	
+
+Manágua 
+	
+
+América Central  
+
+Panamá 
+	
+
+Cidade do Panamá 
+	
+
+América Central  
+
+República Dominicana 
+	
+
+Santo Domingo 
+	
+
+América Central  
+
+Santa Lúcia 
+	
+
+Castries 
+	
+
+América Central  
+
+São Cristóvão e Névis 
+	
+
+Basseterre 
+	
+
+América Central  
+
+São Vicente e Granadinas 
+	
+
+Kingstown 
+	
+
+América Central  
+
+Trinidad e Tobago 
+	
+
+Porto Espanha 
+	
+
+América Central  
+
+Argentina 
+	
+
+Buenos Aires 
+	
+
+América do Sul  
+
+Bolívia 
+	
+
+La Paz  
+	
+
+América do Sul 
+
+Brasil 
+	
+
+Brasília 
+	
+
+América do Sul 
+
+Chile 
+	
+
+Santiago 
+	
+
+América do Sul 
+
+Colômbia 
+	
+
+Bogotá 
+	
+
+América do Sul 
+
+Equador 
+	
+
+Quito 
+	
+
+América do Sul 
+
+Guiana 
+	
+
+Georgetown 
+	
+
+América do Sul 
+
+Guiana Francesa 
+	
+
+Caiena 
+	
+
+América do Sul 
+
+Paraguai 
+	
+
+Assunção 
+	
+
+América do Sul 
+
+Peru 
+	
+
+Lima 
+	
+
+América do Sul 
+
+Suriname 
+	
+
+Paramaribo 
+	
+
+América do Sul 
+
+Uruguai 
+	
+
+Montevidéu 
+	
+
+América do Sul 
+
+Venezuela 
+	
+
+Caracas 
+	
+
+América do Sul"
+
