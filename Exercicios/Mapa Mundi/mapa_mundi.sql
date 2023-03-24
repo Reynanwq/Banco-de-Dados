@@ -133,7 +133,7 @@ INSERT INTO oceanos (name, tam) VALUES ('Atlântico Norte', 107.0); -- EM MILHOE
 -- INSERINDO DADOS DOS PAISES AFRICANOS
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('África do Sul', 'Cidade do Caboo', 57780000, 1221037, 'Inglês', 'África Meridional');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Angola', 'Luanda', 328700000, 1247000, 'Português', 'África Central');
-INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Argélia', 'Argel');
+INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Argélia', 'Argel', '42230000', '2381741', 'Árabe e berbere', 'África Setentrional');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Benim', 'Porto Novo');
 INSERT INTO paises_africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Bostwana', 'Garobone');
 INSERT INTO paises_Africanos (pais, capital, populacao, tam, idioma, regiao) VALUES ('Burquina Faso', 'Ouagadougou');
