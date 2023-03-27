@@ -368,3 +368,73 @@ UPDATE games SET win = 2, lose = 10
 -- AL
 UPDATE games SET win = 2, lose = 10
 	WHERE id = 1;
+    
+-- ATUALIZAÇÃO FINAL DO PRIMEIRO SPLIT DE 2023
+
+-- AL
+update games SET win = 3, lose = 13
+	WHERE id = 1;
+  
+-- BLG
+update games SET win = 10, lose = 6
+	WHERE id = 2;
+ 
+-- EDG
+update games SET win = 13, lose = 3
+	WHERE id = 3;
+
+-- FPX
+update games SET win = 4, lose = 12
+	WHERE id = 4;
+  
+-- IG
+update games SET win = 7, lose = 9
+	WHERE id = 5; 
+    
+-- JDG
+update games SET win = 13, lose = 3
+	WHERE id = 6;
+
+-- LGD
+update games SET win = 5, lose = 11
+	WHERE id = 7;
+    
+-- LNG
+update games SET win = 13, lose = 3
+	WHERE id = 8;
+
+-- NIP
+update games SET win = 5, lose = 11
+	WHERE id = 9;
+   
+-- OMG
+update games SET win = 10, lose = 6
+	WHERE id = 10;
+
+-- RA
+update games SET win = 5, lose = 11
+	WHERE id = 11;
+
+-- RNG
+update games SET win = 8, lose = 8
+	WHERE id = 12; 
+    
+-- WE
+update games SET win = 8, lose = 8
+	WHERE id = 13;
+
+-- TOP
+update games SET win = 9, lose = 7
+	WHERE id = 14;
+    
+-- TT
+update games SET win = 9, lose = 7
+	WHERE id = 15; 
+    
+-- UP
+update games SET win = 3, lose = 13
+	WHERE id = 16;
+    
+-- WEIBO
+update games SET win = 11, lose = 5
+	WHERE id = 17;
